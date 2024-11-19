@@ -3,3 +3,11 @@ spring:
     uri: changedEnvironment
     username: root
     password: password
+  cloud:
+    gateway:
+      routes:
+        - id: user-service
+          uri: https://www.naver.com
+          predicates:
+            - Path=/login
+            - Method=POST
