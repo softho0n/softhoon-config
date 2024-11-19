@@ -1,5 +1,5 @@
 spring:
   datasource:
-    uri: mytestEnvironment
+    uri: changedEnvironment
     username: root
     password: password
