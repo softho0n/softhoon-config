@@ -1,0 +1,5 @@
+spring:
+  datasource:
+    uri: liveironment
+    username: root
+    password: password
