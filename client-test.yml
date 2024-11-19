@@ -1,5 +1,5 @@
 spring:
   datasource:
-    uri: cngedEnvironment
+    uri: cngedEnvonment
     username: root
     password: password
