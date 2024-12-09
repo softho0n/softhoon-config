@@ -9,4 +9,4 @@ spring:
         - id: fisrt-service
           predicates:
             - Path=/first-service/**
-          uri: http://www.naver.com
+          uri: http://www.google.com
