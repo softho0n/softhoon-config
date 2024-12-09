@@ -1,5 +1,12 @@
 spring:
   datasource:
-    uri: asdfasdf 
+    uri: asdfasdf
     username: root
     password: password
+  cloud:
+    gateway:
+      routes:
+        - id: fisrt-service
+          predicates:
+            - Path=/first-service/**
+          uri: http://www.naver.com
