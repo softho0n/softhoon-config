@@ -1,5 +1,5 @@
 spring:
   datasource:
-    uri: dotest 
+    uri: asdfasdf 
     username: root
     password: password
