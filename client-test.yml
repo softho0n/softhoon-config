@@ -10,3 +10,7 @@ spring:
           predicates:
             - Path=/first-service/**
           uri: http://www.naver.com
+        - id: second-service
+          predicates:
+            - Path=/second-service/**
+          uri: http://www.google.com
