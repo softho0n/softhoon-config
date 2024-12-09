@@ -1,5 +1,5 @@
 spring:
   datasource:
-    uri: lzzzloworld 
+    uri: zzloworld 
     username: root
     password: password
