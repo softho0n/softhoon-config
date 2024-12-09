@@ -1,6 +1,6 @@
 spring:
   datasource:
-    uri: changedEnvironment
+    uri: helloworld 
     username: root
     password: password
   cloud:
